@@ -2,8 +2,6 @@
 
 ## **Cenário: Plataforma de Streaming de Vídeo**
 
----
-
 ## 🎯 **Visão Geral do Negócio**
 
 A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, séries e documentários sob demanda. Com o crescimento exponencial de usuários, a arquitetura monolítica atual não consegue mais suportar:
@@ -13,8 +11,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 - **Upload de 1.000+ horas de conteúdo diariamente**
 - **Recomendações personalizadas em tempo real**
 - **Múltiplas qualidades de vídeo (4K, HD, SD)**
-
----
 
 ## 🔄 **Fluxo de Negócio Principal**
 
@@ -34,7 +30,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 4. **Publicação** → Vídeo fica disponível no catálogo
 5. **Analytics** → Criador acompanha métricas de visualização
 
----
 
 ## 📊 **Domínios de Negócio Identificados**
 
@@ -49,7 +44,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 | **Moderação** | Análise de conteúdo, compliance | Flags de conteúdo, relatórios, aprovações |
 | **Analytics** | Métricas de negócio, relatórios | KPIs, dashboards, dados agregados |
 
----
 
 ## ⚡ **Eventos de Negócio Críticos**
 
@@ -85,8 +79,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 - **Impacto:** Publica ou remove do catálogo, notifica criador
 - **Dados:** Status da moderação, motivo, moderador, timestamp
 
----
-
 ## 🎯 **Requisitos Não-Funcionais**
 
 ### **Escalabilidade:**
@@ -109,8 +101,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 - Metadados: Milhões de registros com busca rápida
 - Analytics: Bilhões de eventos de telemetria
 
----
-
 ## 🔍 **Pontos de Integração Externa**
 
 | Sistema | Tipo | Frequência | Dados |
@@ -121,8 +111,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 | **Redes Sociais** | API REST | Por compartilhamento | Metadados de conteúdo, links |
 | **Sistemas de DRM** | API/SDK | Por stream | Licenças, proteção de conteúdo |
 | **Analytics Externos** | Webhook | Batch diário | Métricas agregadas, relatórios |
-
----
 
 ## 📱 **Contextos de Uso**
 
@@ -140,8 +128,6 @@ A **StreamFlix** é uma plataforma de streaming de vídeo que oferece filmes, s�
 - Perfis familiares (adulto, infantil)
 - Recomendações por gênero, horário, dispositivo
 - Controles parentais e restrições de conteúdo
-
----
 
 ## 📋 **Desafio para o Aluno**
 
@@ -170,8 +156,6 @@ Com base nesta documentação, você deve:
   - Eventos de alta frequência vs baixa frequência
   - Pontos de integração com sistemas externos
   - Estratégias de cache e CDN
-
----
 
 ## 💡 **Dicas para Análise**
 

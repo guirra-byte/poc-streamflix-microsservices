@@ -184,4 +184,3 @@ Com base nesta documentação, você deve:
 ---
 
 Este cenário oferece complexidades interessantes como processamento assíncrono pesado, eventos de alta frequência, e diferentes requisitos de performance entre domínios, proporcionando uma excelente base para discussão sobre arquitetura de microsserviços.
-@joevtap
